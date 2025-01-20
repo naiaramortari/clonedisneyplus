@@ -3,6 +3,7 @@
   min-height: 80vh;
   background-image: url(../images/hero_desktop.jpeg);
   text-align: center;
+  background-size: cover;
 }
 .hero__content {
   max-width: 640px;
@@ -16,4 +17,15 @@
 }
 .hero__content p {
   margin-bottom: 20px;
+}
+.hero__content__combos {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__content__combos__combo {
+  width: calc(50% - 12px);
+  background-color: red;
+}
+.hero__content__combos__combo img {
+  max-height: 60px;
 }
